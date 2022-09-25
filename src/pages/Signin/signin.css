@@ -1,0 +1,219 @@
+/* Outer div */
+
+.signin-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Signin card css */
+
+.signin-card {
+  width: 416px;
+  height: 770px;
+  border-radius: 24px;
+  padding: 48px;
+  gap: 10px;
+  border: 1px solid #d9d9d9;
+}
+/* Logo css */
+
+.signin-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 212px;
+  height: 64px;
+  margin-bottom: 25px;
+}
+
+/* Content css */
+
+.sigin-content h2 {
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Roboto";
+  margin-bottom: 15px;
+}
+
+#desc.ant-typography {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+/* Form labels css */
+
+.label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* Form input fields css */
+/* Change Ant Design css properties */
+#email-field
+  > .ant-form-item
+  > .ant-row
+  > .ant-col
+  > .ant-form-item-control-input
+  > .ant-form-item-control-input-content
+  > .ant-input-group-wrapper
+  > .ant-input-group
+  > .ant-input {
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: inherit;
+  padding: 8px 12px;
+  gap: 4px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+/* Form password fields css */
+
+/* Change Ant Design css properties */
+#password-field
+  > .ant-form-item
+  > .ant-row
+  > .ant-col
+  > .ant-form-item-control-input
+  > .ant-form-item-control-input-content
+  > .ant-input-affix-wrapper {
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: inherit;
+  padding: 8px 12px;
+  gap: 4px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  border-color: #d9d9d9 !important;
+}
+
+/* Remember me and Forgot password css */
+
+.login-form-remember {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.login-form-forgot {
+  float: right;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203d7c;
+  text-decoration: none;
+}
+
+/* Simple signin button css */
+
+.signin-button {
+  box-sizing: border-box;
+  padding: 6.4px 15px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 2px;
+  background: #203d7c;
+  border: 1px solid #203d7c;
+}
+
+/* Change Ant Design css properties for simple login button */
+#simple-signin.signin-button .ant-typography {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.signin-card p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Facebook button css */
+
+.facebook-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6.4px 15px;
+  gap: 10px;
+  width: 320px;
+  height: 40px;
+  background: #3c589a;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+/* Change Ant Design css properties for Facebook login button */
+#facebook.facebook-button .ant-typography {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Google button css */
+
+.google-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6.4px 15px;
+  gap: 10px;
+  width: 320px;
+  height: 40px;
+  background: #de4b38;
+  border-radius: 2px;
+  border: none;
+}
+
+/* Change Ant Design css properties for Google login button */
+#google.google-button .ant-typography {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,37 @@
+.manage-customers--edit-button {
+  background-color: #203d7c;
+  color: white;
+  border-radius: 2px;
+  width: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.manage-customers--edit-button:hover {
+  background-color: #203d7c;
+  color: white;
+}
+
+.manage-customers--delete-button {
+  background-color: #ff4d4f;
+  color: white;
+  border-radius: 2px;
+  width: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manage-customers--delete-button:hover {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.manage-customers--action-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

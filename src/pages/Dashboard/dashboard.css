@@ -1,0 +1,65 @@
+/* Import ant desing libraries */
+@import "~antd/dist/antd.css";
+
+/* Sidebar styling */
+.sidebar-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px;
+  width: 75%;
+  height: 4%;
+}
+
+.sidebar-container {
+  background: white;
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.logo {
+  width: 65%;
+  margin: 10px 15px;
+}
+
+/* Navbar Styling */
+.nav-right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.site-layout {
+  margin-left: 200px;
+}
+
+.nav-container {
+  padding: 0;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  margin: 15px 10px;
+}
+
+.language {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.language-translate-button {
+  margin-right: 10px;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: "center";
+}

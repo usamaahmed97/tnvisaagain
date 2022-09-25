@@ -1,13 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Amplify from "aws-amplify";
+import AppRouter from "./components/AppRouter/AppRouter";
+import aws_exports from "./aws-exports";
+Amplify.configure(aws_exports);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Changed</h1>
-      </header>
+      <AppRouter />
     </div>
   );
 }
