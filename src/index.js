@@ -27,7 +27,7 @@ if (isLocalhost) {
   awsExports.oauth.redirectSignIn = signInURI[1];
   awsExports.oauth.redirectSignOut = signOutURI[1];
 } else {
-  console.alert("This is not possible");
+  console.log("Not working");
 }
 
 Amplify.configure(awsExports);
