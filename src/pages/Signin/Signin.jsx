@@ -112,19 +112,27 @@ function Signin() {
       provider: CognitoHostedUIIdentityProvider.Facebook,
     });
 
-    // const authUser = await Auth.currentAuthenticatedUser();
-    // const facebookJWT = authUser.signInUserSession.accessToken;
-    // console.log("facebookJWT", facebookInfo);
+    console.log("signin user object: ", facebookInfo);
+
+    const sessionInfo = await Auth.currentSession();
+    console.log("SessionInfo", sessionInfo);
+
+    const JWTvalue = await getJWT();
+    console.log("JWTvalue Variable:", JWTvalue);
   };
 
   const signInwithGoogle = async () => {
-    await Auth.federatedSignIn({
+    const googleUser = await Auth.federatedSignIn({
       provider: CognitoHostedUIIdentityProvider.Google,
     });
 
-    const authUser = await Auth.currentAuthenticatedUser();
-    const JWT = authUser.signInUserSession.accessToken;
-    console.log("Token after google signin", JWT);
+    console.log("signin user object: ", googleUser);
+
+    const sessionInfo = await Auth.currentSession();
+    console.log("SessionInfo", sessionInfo);
+
+    const JWTvalue = await getJWT();
+    console.log("JWTvalue Variable:", JWTvalue);
   };
 
   const goToDasboard = () => {
